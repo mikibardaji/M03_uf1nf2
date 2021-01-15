@@ -22,18 +22,22 @@ public class Exercici7 {
         int minimo=sc.nextInt();
         System.out.println("Pon el valor de Maximo");
         int maximo=sc.nextInt();
-        
+        //calcular espacio necesario
         int tamanyo = maximo-minimo+1;
         int[] valores = new int[tamanyo];
         /*
 3 y 8
 array debo guardar 3,4,5,6,7,8
-1 y 10
+1 y 10grama que pida dos valores enteros P y Q
 array debo guardar 1,2,3,4,5,6,7,8,9,10
         */
         //recorrer array de 0 a length y inicializarlo con el minimo
         //e ir aumentandolo
         
+        for (int i = 0; i < valores.length; i++) {
+            valores[i]=minimo+i;
+            System.out.print(valores[i]+" ");
+        }
         
         
          
