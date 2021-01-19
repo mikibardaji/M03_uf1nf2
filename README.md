@@ -53,3 +53,7 @@ distintas opciones:
  valor inicial V, y continúa con incrementos de I. Por ejemplo, con V=1 e I=2, la secuencia
  sería 1, 3, 5, 7, 9... Con V=7 e I=10, la secuencia sería 7, 17, 27, 37... El programa solicitará al
  usuario V, I además de N (nº de valores a crear).
+ 
+ 14. Crea un programa que cree un array de enteros e introduzca la siguiente secuencia de
+ valores: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, etc. hasta introducir el 10, unas 10 diez veces, y luego la
+ muestre por pantalla.
