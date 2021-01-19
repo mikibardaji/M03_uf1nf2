@@ -18,7 +18,7 @@ public class ClaseArrays {
      */
     public static void main(String[] args) {
         int[] num1 = {2,3,4};
-        int[] num2 = {2,3,5,6,4};
+        int[] num2 = {2,3,git ,6,4};
         //boolean iguales = Arrays.equals(num1, num2);
         if (Arrays.equals(num1, num2))
         {
