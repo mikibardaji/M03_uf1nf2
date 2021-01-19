@@ -40,8 +40,11 @@ delprimer array al segundo array en orden inverso, y mostrar ambos por pantalla.
 
 **12.** Crea un programa que cree un array de 10 enteros y luego muestre el siguiente menú con
 distintas opciones:
+
    a. Mostrar valores.
+   
    b. Introducir valor.
+   
    c. Salir.
    
    La opción ‘a’ mostrará todos los valores por pantalla. 
