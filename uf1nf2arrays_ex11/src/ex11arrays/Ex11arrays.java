@@ -42,10 +42,11 @@ public class Ex11arrays {
         }
         
         j=0;
-        for (int i = numero.length-1; i >= 0; i--)         {    
-           j++;
-           numero_inverso[j]=numero[i];     
-        }
+        for (int i = numero.length-1; i >= 0; i--)         
+            {    
+               numero_inverso[j]=numero[i];     
+               j++;
+            }
         
         
         for (int i = 0; i < numero_inverso.length; i++) {
