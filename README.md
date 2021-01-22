@@ -65,7 +65,7 @@ distintas opciones:
 
 **19.** Necesitamos crear un programa para mostrar el ranking de puntuaciones de un torneo de ajedrez con 8 jugadores. Se le pedirá al usuario que introduzca las puntuaciones de todos los jugadores (habitualmente valores entre 1000 y 2800, de tipo entero) y luego muestre las puntuaciones en orden descendente (de la más alta a la más baja).
 
-**cubiletes** Crearem el joc de los trileros.
+**Cubiletes trileros** Crearem el joc de los trileros.
 El nostre joc sera mes senzill , crearem un array de tipus lletra on hi haurà una boleta , O (o mayuscula) i dues X.
 Inicialment es ficara aleatoriament i ha de mostrar on te la 0.
 Llavors, ha de fer 10 canvi de posicions.
