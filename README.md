@@ -60,3 +60,18 @@ distintas opciones:
 **14.** Crea un programa que cree un array de enteros e introduzca la siguiente secuencia de
  valores: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, etc. hasta introducir el 10, unas 10 diez veces, y luego la
  muestre por pantalla.
+
+**18.** Crea un programa que cree un array de tamaño 30 y lo rellene con valores aleatorios entre 0 y 9 (utiliza Math.random()*10). Luego ordena los valores del array y los mostrará por pantalla.
+
+**19.** Necesitamos crear un programa para mostrar el ranking de puntuaciones de un torneo de ajedrez con 8 jugadores. Se le pedirá al usuario que introduzca las puntuaciones de todos los jugadores (habitualmente valores entre 1000 y 2800, de tipo entero) y luego muestre las puntuaciones en orden descendente (de la más alta a la más baja).
+
+**cubiletes** Crearem el joc de los trileros.
+El nostre joc sera mes senzill , crearem un array de tipus lletra on hi haurà una boleta , O (o mayuscula) i dues X.
+Inicialment es ficara aleatoriament i ha de mostrar on te la 0.
+Llavors, ha de fer 10 canvi de posicions.
+Un canvi de posicio, es intercanviar el valor de 2 cubiletes.
+Per exemple canvia el valor del 0 per la posició 2, IMPORTANT: HAN DE CANVIAR ELS DOS VALORS I NO PERDRE EL VALOR.
+Com que no es visual, apart de fer el canvi ha de mostrar la frase **"Intercanvio posicions 0 y 2"**. S'ha de mostrar les 10 frases del canvi i despres demanar-te a on esta la pilota.
+Si encertes acumules un punt i tornes a jugar.
+Fins que falles, que llavors s'acaba el joc i et mostra els punts aconseguits.
+Es programarà amb funcions principalment i abans de començar a codificar, al main, amb linees de comentaris // haure de escriure els passos a seguir i avisar al professor que els revisi.
