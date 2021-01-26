@@ -1,4 +1,5 @@
 # M03_uf2nf2
+## Arrays unidimensionales Vectores
 
 **1.** Crea un programa que pida diez números reales por teclado, los almacene en un array, 
 y luego muestre todos sus valores.
@@ -65,6 +66,12 @@ distintas opciones:
 
 **19.** Necesitamos crear un programa para mostrar el ranking de puntuaciones de un torneo de ajedrez con 8 jugadores. Se le pedirá al usuario que introduzca las puntuaciones de todos los jugadores (habitualmente valores entre 1000 y 2800, de tipo entero) y luego muestre las puntuaciones en orden descendente (de la más alta a la más baja).
 
+**HeadBall 2** El joc es senzill 4 targetes, una aleatoria te una tarjeta vermella, les altres premis que van variant. Jugues fins que et plantes o fins que et surt una tarjeta vermella.
+Podeu mirar el video següent [link](https://www.youtube.com/watch?v=nQh-xJQsXoc&feature=youtu.be)
+Simularem que a totes et toca diners random de 1 al 20, menys a 1 que tindra que valer -1, que si la elegeixes, et retorna -1 que tu traduiras (al main) com targeta vermella.
+Plenar el array amb una funció apart.
+Retornar el valor a partir de la elecció usuario, funcio apart.
+
 **Cubiletes trileros** Crearem el joc de los trileros.
 El nostre joc sera mes senzill , crearem un array de tipus lletra on hi haurà una boleta , O (o mayuscula) i dues X.
 Inicialment es ficara aleatoriament i ha de mostrar on te la 0.
@@ -76,7 +83,21 @@ Si encertes acumules un punt i tornes a jugar.
 Fins que falles, que llavors s'acaba el joc i et mostra els punts aconseguits.
 Es programarà amb funcions principalment i abans de començar a codificar, al main, amb linees de comentaris // haure de escriure els passos a seguir i avisar al professor que els revisi.
 
-**uf1nf2arrays_mail_password** Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
+## Strings
+
+**3.** Crea un programa que pida por teclado tres cadenas de texto: nombre y dos apellidos. Luego
+mostrará un código de usuario (en mayúsculas) formado por la concatenación de las tres
+primeras letras de cada uno de ellos. Por ejemplo si se introduce “Lionel”, “Tarazón” y
+“Alcocer” mostrará “LIOTARALC”.
+**4.** Crea un programa que muestre por pantalla cuantas vocales de cada tipo hay (cuantas ‘a’,
+cuantas ‘e’, etc.) en una frase introducida por teclado. No se debe diferenciar entre
+mayúsculas y minúsculas. Por ejemplo dada la frase “Mi mama me mima” dirá que hay:
+Nº de A's: 3
+Nº de E's: 1
+Nº de I's: 2
+Nº de O's: 0
+Nº de U's: 0
+**uf1nf2Strings_mail_password** Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
 La validación es:
 - El nombre de usuario tiene que ser formato email o sea contener una @.
 - El password tiene que tener mínimo 8 caracteres.
