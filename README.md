@@ -89,6 +89,7 @@ Es programarà amb funcions principalment i abans de començar a codificar, al m
 mostrará un código de usuario (en mayúsculas) formado por la concatenación de las tres
 primeras letras de cada uno de ellos. Por ejemplo si se introduce “Lionel”, “Tarazón” y
 “Alcocer” mostrará “LIOTARALC”.
+
 **4.** Crea un programa que muestre por pantalla cuantas vocales de cada tipo hay (cuantas ‘a’,
 cuantas ‘e’, etc.) en una frase introducida por teclado. No se debe diferenciar entre
 mayúsculas y minúsculas. Por ejemplo dada la frase “Mi mama me mima” dirá que hay:
@@ -97,6 +98,7 @@ Nº de E's: 1
 Nº de I's: 2
 Nº de O's: 0
 Nº de U's: 0
+
 **uf1nf2Strings_mail_password** Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
 La validación es:
 - El nombre de usuario tiene que ser formato email o sea contener una @.
