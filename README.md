@@ -75,3 +75,16 @@ Com que no es visual, apart de fer el canvi ha de mostrar la frase **"Intercanvi
 Si encertes acumules un punt i tornes a jugar.
 Fins que falles, que llavors s'acaba el joc i et mostra els punts aconseguits.
 Es programarà amb funcions principalment i abans de començar a codificar, al main, amb linees de comentaris // haure de escriure els passos a seguir i avisar al professor que els revisi.
+
+**uf1nf2arrays_mail_password** Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
+La validación es:
+- El nombre de usuario tiene que ser formato email o sea contener una @.
+- El password tiene que tener mínimo 8 caracteres.
+- El password no debe contener espacios
+
+Tras la validación, informar al usuario de los posibles errores o si no hay:
+- "Usuario incorrecto"
+- "Password incorrecto"
+- Si tiene espacios debe informar "formato incorrecto no debe dejar espacios"
+- Solo debe aceptar si el dominio es "proven.cat", sino informar "dominio mail incorrecto" 
+- si todo es correcto debe mostrar "Usuario i password correcto"
