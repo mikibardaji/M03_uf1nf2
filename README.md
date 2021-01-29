@@ -99,7 +99,7 @@ Nº de I's: 2
 Nº de O's: 0
 Nº de U's: 0
 
-**uf1nf2Strings_mail_password** Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
+**Verificar mail y password** uf1nf2Strings_mail_password Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
 La validación es:
 - El nombre de usuario tiene que ser formato email o sea contener una @.
 - El password tiene que tener mínimo 8 caracteres.
@@ -111,3 +111,5 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 - Si tiene espacios debe informar "formato incorrecto no debe dejar espacios"
 - Solo debe aceptar si el dominio es "proven.cat", sino informar "dominio mail incorrecto" 
 - si todo es correcto debe mostrar "Usuario i password correcto"
+
+**penjat** Jugar al ahorcado
