@@ -113,3 +113,5 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 - si todo es correcto debe mostrar "Usuario i password correcto"
 
 **penjat** Jugar al ahorcado
+
+**alexa** Ver documento pdf adjunto
