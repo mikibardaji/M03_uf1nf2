@@ -30,8 +30,11 @@ public class Penjat {
 
     private static String preguntar_frase() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Escriu la frase per ficar al penjat");
-        String frase=sc.nextLine();
+        String frase;
+        do{
+        System.out.println("Escriu la frase per ficar al penjat almenos tiene que tener 3 letras");
+        frase=sc.next().toUpperCase();
+        }while(frase.length()<3);
         return frase;
     }
 
