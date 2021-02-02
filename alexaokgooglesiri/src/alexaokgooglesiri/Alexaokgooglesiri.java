@@ -5,6 +5,7 @@
  */
 package alexaokgooglesiri;
 
+import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -90,6 +91,9 @@ public class Alexaokgooglesiri {
         if (orden.contains("TABLAS DE MULTIPLICAR")){
             multiplicar();
         }
+        if (orden.contains("DIME MI EDAD")){
+            calcular_edad();
+        }
 
         return true;
     }
@@ -145,6 +149,21 @@ public class Alexaokgooglesiri {
         {
             System.out.println("Piensa mas");
         }
+    }
+
+    private static void calcular_edad() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Que año nacieste?");
+        int birth = sc.nextInt();
+        
+        Calendar calc = Calendar.getInstance();
+        int year = calc.get(Calendar.YEAR);
+        int edad = year - birth;
+        
+        System.out.println("Tienes " + edad + "años");
+        
+        
+        
     }
 
 }
