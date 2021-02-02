@@ -115,3 +115,5 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 **penjat** Jugar al ahorcado
 
 **alexa** Ver documento pdf adjunto
+
+**draft Clash Royale** Ver documento pdf adjunto

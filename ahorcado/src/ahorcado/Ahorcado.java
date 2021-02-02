@@ -27,7 +27,7 @@ public class Ahorcado {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String paraula = ficar_paraula();
+        String paraula = ficar_paraula();  
         for (int i=0; i < 50; i++)
 
 {
