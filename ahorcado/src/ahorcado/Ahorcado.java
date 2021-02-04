@@ -32,7 +32,7 @@ public class Ahorcado {
 
 {
 
-System.out.println("");
+System.out.println("branca1");
 
 }
         char[] lletres = new char[paraula.length()];
