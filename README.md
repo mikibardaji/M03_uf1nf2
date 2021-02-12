@@ -114,7 +114,7 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 
 **Penjat.** Jugar al típic joc del ahorcado
 
-**alexa.** Ver documento pdf adjunto
+**Alexa.** Ver documento pdf adjunto
 ## Arrays Strings
 
 **Draft Clash Royale.** Ver documento pdf adjunto
