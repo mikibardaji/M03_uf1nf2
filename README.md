@@ -120,9 +120,10 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 **Draft Clash Royale.** Ver documento pdf adjunto
 
 **Agenda contactes.**
-Crea una llista de noms que gestionarem amb un menú, amb les seguents opcions
-Llistar noms (mostrarà tots els noms fins al moment i al final del llistat mostrara quants n'ha mostrat)
-Afegir nom(Afegira a la part final el nom que afegeixis)
+Crea una llista de noms que gestionarem amb un menú, amb les seguents opcions:
+
+1- Llistar noms (mostrarà tots els noms fins al moment i al final del llistat mostrara quants n'ha mostrat)
+2- Afegir nom(Afegira a la part final el nom que afegeixis)
 Modificar nom(Buscara el nom i el substituira pel nou que introdueixis)
 Cerca en quina posició nom(Posaras el nom a buscar i retornar la posició en que es troba a la llista)
 Esborrar nom(opció fàcil, quant trobes la posició la deixes en blanc, i despres llistar noms , no te que mostrar les posicions en blanc. 2ona opcioó mes correcta quant troba el nom, va copiant les posicions segunts de tal manera que es mouen totes una posició cap a la esquerra la 3 passa a la 2, la 4 a la 3.)
