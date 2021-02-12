@@ -66,13 +66,13 @@ distintas opciones:
 
 **19.** Necesitamos crear un programa para mostrar el ranking de puntuaciones de un torneo de ajedrez con 8 jugadores. Se le pedirá al usuario que introduzca las puntuaciones de todos los jugadores (habitualmente valores entre 1000 y 2800, de tipo entero) y luego muestre las puntuaciones en orden descendente (de la más alta a la más baja).
 
-**HeadBall 2** El joc es senzill 4 targetes, una aleatoria te una tarjeta vermella, les altres premis que van variant. Jugues fins que et plantes o fins que et surt una tarjeta vermella.
+**HeadBall 2.** El joc es senzill 4 targetes, una aleatoria te una tarjeta vermella, les altres premis que van variant. Jugues fins que et plantes o fins que et surt una tarjeta vermella.
 Podeu mirar el video següent [link](https://www.youtube.com/watch?v=nQh-xJQsXoc&feature=youtu.be)
 Simularem que a totes et toca diners random de 1 al 20, menys a 1 que tindra que valer -1, que si la elegeixes, et retorna -1 que tu traduiras (al main) com targeta vermella.
 Plenar el array amb una funció apart.
 Retornar el valor a partir de la elecció usuario, funcio apart.
 
-**Cubiletes trileros** Crearem el joc de los trileros.
+**Cubiletes trileros.** Crearem el joc de los trileros.
 El nostre joc sera mes senzill , crearem un array de tipus lletra on hi haurà una boleta , O (o mayuscula) i dues X.
 Inicialment es ficara aleatoriament i ha de mostrar on te la 0.
 Llavors, ha de fer 10 canvi de posicions.
@@ -99,7 +99,7 @@ Nº de I's: 2
 Nº de O's: 0
 Nº de U's: 0
 
-**Verificar mail y password** uf1nf2Strings_mail_password Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
+**Verificar mail y password.** uf1nf2Strings_mail_password Realiza un programa que solicite un nombre de usuario (que obligatoriamente será un email) y un password.
 La validación es:
 - El nombre de usuario tiene que ser formato email o sea contener una @.
 - El password tiene que tener mínimo 8 caracteres.
@@ -112,14 +112,14 @@ Tras la validación, informar al usuario de los posibles errores o si no hay:
 - Solo debe aceptar si el dominio es "proven.cat", sino informar "dominio mail incorrecto" 
 - si todo es correcto debe mostrar "Usuario i password correcto"
 
-**penjat** Jugar al ahorcado
+**Penjat.** Jugar al típic joc del ahorcado
 
-**alexa** Ver documento pdf adjunto
+**alexa.** Ver documento pdf adjunto
 ## Arrays Strings
 
-**Draft Clash Royale** Ver documento pdf adjunto
+**Draft Clash Royale.** Ver documento pdf adjunto
 
-**Agenda contactes**
+**Agenda contactes.**
 Crea una llista de noms que gestionarem amb un menú, amb les seguents opcions
 Llistar noms (mostrarà tots els noms fins al moment i al final del llistat mostrara quants n'ha mostrat)
 Afegir nom(Afegira a la part final el nom que afegeixis)
@@ -129,14 +129,14 @@ Esborrar nom(opció fàcil, quant trobes la posició la deixes en blanc, i despr
 
 ## Arrays multidimensionales.
 
-**1** Crea un programa que cree una matriz de tamaño 5x5 que almacene los números del 1 al 25 y luego muestre la matriz por pantalla.
+**1.** Crea un programa que cree una matriz de tamaño 5x5 que almacene los números del 1 al 25 y luego muestre la matriz por pantalla.
 
-**2** Crea un programa que cree una matriz de 10x10 e introduzca los valores de las tablas de multiplicar del 1 al 10 (cada tabla en una fila). Luego mostrará la matriz por pantalla.
+**2.** Crea un programa que cree una matriz de 10x10 e introduzca los valores de las tablas de multiplicar del 1 al 10 (cada tabla en una fila). Luego mostrará la matriz por pantalla.
 
-**3** Crea un programa que cree una matriz de tamaño NxM (tamaño introducido por teclado) e introduzca en ella NxM valores (también introducidos por teclado). Luego deberá recorrer la matriz y al final mostrar por pantalla cuántos valores son mayores que cero, cuántos son menores que cero y cuántos son igual a cero.
+**3.** Crea un programa que cree una matriz de tamaño NxM (tamaño introducido por teclado) e introduzca en ella NxM valores (también introducidos por teclado). Luego deberá recorrer la matriz y al final mostrar por pantalla cuántos valores son mayores que cero, cuántos son menores que cero y cuántos son igual a cero.
 
-**4** Necesitamos crear un programa para almacenar las notas de 4 alumnos (llamados “Alumno 1”, “Alumno 2”, etc.) y 5 asignaturas. El usuario introducirá las notas por teclado y luego el programa mostrará la nota mínima, máxima y media de cada alumno.
+**4.** Necesitamos crear un programa para almacenar las notas de 4 alumnos (llamados “Alumno 1”, “Alumno 2”, etc.) y 5 asignaturas. El usuario introducirá las notas por teclado y luego el programa mostrará la nota mínima, máxima y media de cada alumno.
 
-**5** Necesitamos crear un programa para registrar sueldos de hombres y mujeres de una empresa y detectar si existe brecha salarial entre ambos. El programa pedirá por teclado la información de N personas distintas (valor también introducido por teclado). Para cada persona, pedirá su género (0 para varón y 1 para mujer) y su sueldo. Esta información debe guardarse en una única matriz. Luego se mostrará por pantalla el sueldo medio de cada género.
+**5.** Necesitamos crear un programa para registrar sueldos de hombres y mujeres de una empresa y detectar si existe brecha salarial entre ambos. El programa pedirá por teclado la información de N personas distintas (valor también introducido por teclado). Para cada persona, pedirá su género (0 para varón y 1 para mujer) y su sueldo. Esta información debe guardarse en una única matriz. Luego se mostrará por pantalla el sueldo medio de cada género.
 
-**Conecta4** Enunciado en PDF.
+**Conecta4.** Enunciado en PDF.
