@@ -36,18 +36,21 @@ public class Burbuja {
        
         for (ele_ordenados = 0; ele_ordenados < numeros.length; ele_ordenados++) {
             for(j=0;j<(numeros.length-ele_ordenados-1);j++)
-            {
-               
+            {//resto ele_ordenados, porque cuando
+                //los finales ya estan ordenados 
+                //no quiero que llegue a esas posiciones, se podria hacer sin la resta también
+             System.out.println("comparo posicion" + j + "con la " + (j+1));
                 if(numeros[j]>numeros[j+1])
                 {//intercambio valores
                    aux=numeros[j];
                    numeros[j]=numeros[j+1];
                    numeros[j+1]= aux;
-               
+                    System.out.println("cambio posicion");
+                    mostrar_array(numeros);
                 }
                 
             }
-            
+            System.out.println("Elementos ordenados al terminar el for interno" + ele_ordenados);
             
         }
        
