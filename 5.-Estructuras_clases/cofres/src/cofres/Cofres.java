@@ -22,7 +22,11 @@ public class Cofres {
         Carta[] tuyas = new Carta[disponibles.length];
         int num_cartas_tuyas = 0, menu, monedas = 0;
         cargar_cartas_disponibles(disponibles);
+        
+        //pedir el nombre del primer jugador
+        
         do {
+            //mostrar el nombre del jugador
             menu = mostrar_opciones_menu();
             switch (menu) {
                 case 1:
@@ -36,7 +40,10 @@ public class Cofres {
                     mostrartuscartas(tuyas, num_cartas_tuyas);
                     System.out.println("monedas" + monedas);
                     break;
-
+                case 4:
+                    encontrarCarta(tuyas, num_cartas_tuyas);
+                   
+                    break;
                 case 6:
                     monedas = subir_nivel(tuyas, monedas, num_cartas_tuyas);
 
@@ -166,7 +173,7 @@ public class Cofres {
         int puntos_necesarios, monedas_necesarias;
         
         
-        for (int i = 0; i < tuyas.length; i++) {
+        for (int i = 0; i < num_cartas_tuyas; i++) {
             
             if (nom_introduit.equalsIgnoreCase(tuyas[i].nombre)) {
 
@@ -198,8 +205,8 @@ public class Cofres {
         for (ele_ordenados = 0; ele_ordenados < num_cartas_tuyas; ele_ordenados++) {
             for(j=0;j<(num_cartas_tuyas-ele_ordenados-1);j++)
             {
-
-                if(tuyas[j].level>tuyas[j+1].level)
+//ordenacion descendente
+                if(tuyas[j].level<tuyas[j+1].level)
 
                 {//intercambio valores
                    aux.elixir =  tuyas[j].elixir;
@@ -226,9 +233,30 @@ public class Cofres {
        
     }
 
+    private static void encontrarCarta(Carta[] tuyas, int num_cartas_tuyas) {
+       Scanner sc = new Scanner(System.in);
+
+        String nom_introduit;
+        System.out.println("Quina carta vols veure?");
+        nom_introduit = sc.nextLine();
+        boolean trobada=false;
+        for (int i = 0; i < num_cartas_tuyas; i++) {
+            
+            if (nom_introduit.equalsIgnoreCase(tuyas[i].nombre)) {
+                    
+                System.out.println("Carta " + tuyas[i].nombre);
+                System.out.println("Elixir " + tuyas[i].elixir);
+                System.out.println("Level " + tuyas[i].level);
+                System.out.println("puntos " + tuyas[i].puntos_carta);
+                trobada=true;
+                
+                } 
+            }
+        
+         if (!trobada)
+            {
+                System.out.println("No tens aquesta carta " + nom_introduit);
+            }
+        }
     
-    
-    
-    
-    
-}
+    }
