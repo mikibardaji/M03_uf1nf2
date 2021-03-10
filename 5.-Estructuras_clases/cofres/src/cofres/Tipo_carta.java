@@ -7,17 +7,9 @@ package cofres;
 
 /**
  *
- * @author mati
+ * @author usuari
  */
-
-
-
-public class Carta {
-    String nombre;
-    int elixir;
-    int level;
-    int puntos_carta;
-    Tipo_carta tipo;
-    //String tipo
+public enum Tipo_carta
+{
+    LEGENDARIA, EPICA, RARA, COMUN
 }
-

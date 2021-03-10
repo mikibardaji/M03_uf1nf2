@@ -7,17 +7,11 @@ package cofres;
 
 /**
  *
- * @author mati
+ * @author usuari
  */
-
-
-
-public class Carta {
-    String nombre;
-    int elixir;
-    int level;
-    int puntos_carta;
-    Tipo_carta tipo;
-    //String tipo
+public class Usuarios {
+    String nom;
+    Carta[] tuyas;
+    int monedas;
+    int num_cartas_tuyas;
 }
-
