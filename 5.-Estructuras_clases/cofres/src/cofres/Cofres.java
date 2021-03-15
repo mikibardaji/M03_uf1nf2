@@ -97,8 +97,6 @@ public class Cofres {
         disponibles[3].nombre = "Globo Bombastico";
         disponibles[3].elixir = 5;
         disponibles[3].tipo = Tipo_carta.COMUN;
-        disponibles[3].nombre = "Ejercito esqueletos";
-        disponibles[3].elixir = 3;
         disponibles[4].nombre = "Descarga";
         disponibles[4].elixir = 2;
         disponibles[4].tipo = Tipo_carta.COMUN;
