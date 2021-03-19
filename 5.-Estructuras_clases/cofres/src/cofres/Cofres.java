@@ -23,7 +23,7 @@ public class Cofres {
         //4 variables preparades per apuntar 
         //a un lloc memoria on hih a usuaris pero no ha reservat memoria
         int  menu;
-        int num_jugador = 0, numero_jugadores_actual=0;
+        int num_jugador = 0, numero_jugadores_actual=0, nivel_j=0;
         cargar_cartas_disponibles(disponibles);
         
         //pedir el nombre del primer jugador
@@ -39,7 +39,7 @@ public class Cofres {
             menu = mostrar_opciones_menu();
             switch (menu) {
                 case 1:
-                    mostrartodascartasJuego(disponibles);
+                    mostrartodascartasJuego(disponibles,llista_jugador[num_jugador].nivel_usuario_arena);
                     break;
                 case 2:
                     llista_jugador[num_jugador].monedas = llista_jugador[num_jugador].monedas + encontrar_monedas(450, 50);
@@ -56,7 +56,8 @@ public class Cofres {
                    
                     break;
                 case 6:
-                    llista_jugador[num_jugador].monedas = subir_nivel(llista_jugador[num_jugador].tuyas, llista_jugador[num_jugador].monedas, llista_jugador[num_jugador].num_cartas_tuyas);
+                    llista_jugador[num_jugador].monedas = subir_nivel(llista_jugador[num_jugador].tuyas, llista_jugador[num_jugador].monedas, llista_jugador[num_jugador].num_cartas_tuyas, 
+                            llista_jugador[num_jugador]);
                     break;
                 case 7: //canviar cuenta
                     num_jugador = canviar_supercellid(llista_jugador,num_jugador);
@@ -84,6 +85,7 @@ public class Cofres {
         disponibles[0].nombre = "Pekka";
         disponibles[0].elixir = 7;
         disponibles[0].tipo = Tipo_carta.EPICA;
+        disponibles[0].arena = 0; 
         //System.out.println("tu" + Tipo_carta.EPICA);
         //disponibles[0].level no hace falta
         //disponibles[0].puntos_carta no hace
@@ -91,16 +93,19 @@ public class Cofres {
         disponibles[1].nombre = "Mini Pekka";
         disponibles[1].elixir = 4;
         disponibles[1].tipo = Tipo_carta.RARA;
+        disponibles[1].arena = 0;
         disponibles[2].nombre = "Leñador";
         disponibles[2].elixir = 4;
         disponibles[2].tipo = Tipo_carta.RARA;
+        disponibles[2].arena = 1;
         disponibles[3].nombre = "Globo Bombastico";
         disponibles[3].elixir = 5;
         disponibles[3].tipo = Tipo_carta.COMUN;
+        disponibles[3].arena = 1;
         disponibles[4].nombre = "Descarga";
         disponibles[4].elixir = 2;
         disponibles[4].tipo = Tipo_carta.COMUN;
-
+        disponibles[4].arena = 2;
     }
 
     private static int mostrar_opciones_menu() {
@@ -129,9 +134,13 @@ public class Cofres {
      * @param disponibles array con todas las cartas del juego
      */
 
-    private static void mostrartodascartasJuego(Carta[] disponibles) {
+    private static void mostrartodascartasJuego(Carta[] disponibles, int nivel_usuario_arena) {
         for (int i = 0; i < disponibles.length; i++) {
-            System.out.println("->" + disponibles[i].nombre + " elixir:" + disponibles[i].elixir);
+            if (nivel_usuario_arena >= disponibles[i].arena)
+            {
+            System.out.println("->" + disponibles[i].nombre + " elixir:" + disponibles[i].elixir);    
+            }
+            
         }
     }
 
@@ -225,7 +234,7 @@ public class Cofres {
     sino no lo aumenta 
     devuelve siempre las monedas que le quedan haya auentado nivel o no
      */
-    private static int subir_nivel(Carta[] tuyas, int monedas, int num_cartas_tuyas) {
+    private static int subir_nivel(Carta[] tuyas, int monedas, int num_cartas_tuyas, Usuarios jugador) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -246,6 +255,10 @@ public class Cofres {
 
                     tuyas[i].level++;
                  System.out.println("Has augmentat al nivell " + tuyas[i].level);
+                 if (jugador.nivel_usuario_arena<tuyas[i].level)
+                 {
+                     jugador.nivel_usuario_arena=tuyas[i].level;
+                 }
                  tuyas[i].puntos_carta = tuyas[i].puntos_carta - puntos_necesarios;
                  monedas = monedas - monedas_necesarias;
                  ordenacionLevelDescendente(tuyas, num_cartas_tuyas);

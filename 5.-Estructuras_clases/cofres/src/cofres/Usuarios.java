@@ -14,4 +14,5 @@ public class Usuarios {
     Carta[] tuyas;
     int monedas;
     int num_cartas_tuyas;
+    int nivel_usuario_arena;
 }

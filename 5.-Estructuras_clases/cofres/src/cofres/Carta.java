@@ -18,6 +18,7 @@ public class Carta {
     int level;
     int puntos_carta;
     Tipo_carta tipo;
+    int arena;
     //String tipo
 }
 
