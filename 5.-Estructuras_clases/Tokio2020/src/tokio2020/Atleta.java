@@ -3,22 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cofres;
+package tokio2020;
 
 /**
  *
- * @author mati
+ * @author Alumne
  */
+public class Atleta {
+    String nom;
+    String pais;
 
-
-
-public class Carta {
-    String nombre;
-    int elixir;
-    int level;
-    int puntos_carta;
-    Tipo_carta tipo;
-    int arena;
-    //String tipo
 }
-
